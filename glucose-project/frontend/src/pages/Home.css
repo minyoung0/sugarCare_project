@@ -1,0 +1,13 @@
+
+.container{
+    height:50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+}
+h1{
+    font-size:100px;
+    text-align: center;
+    line-height:300px;
+}
