@@ -1,0 +1,19 @@
+# Node
+**/node_modules/
+**/.cache/
+npm-debug.log*
+
+# Java
+**/target/
+*.class
+
+# Python
+**/__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 기타
+*.zip
+*.rar
+*.7z
+*.tar.gz
