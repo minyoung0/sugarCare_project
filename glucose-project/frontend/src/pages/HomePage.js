@@ -1,19 +1,16 @@
-// src/pages/HomePage.jsx
-import Plot from "react-plotly.js";
-import {THEME_PRESETS} from "../theme";
-import {statusOf, statusColor} from "../utils/status";
-import mapUrl from "../utils/mapUrl";
-import {applyPlotlyLayout} from "../utils/plotly";
 import "bootstrap/dist/css/bootstrap.min.css"; // 꼭 추가!
 import ProfileCard from "../components/home/ProfileCard";
 import TodayBlood from "../components/home/TodayBlood";
 import Map from "../components/home/Map";
 import ExerciseContents from "../components/home/ExerciseContents";
 import Market from "../components/home/Market";
+import HelloPage from "./HelloPage";
+
 export default function HomePage({ state, setState }) {
 
     return (
         <>
+            <p><HelloPage></HelloPage></p>
             <div className="row g-3">
                 <div className="col-md-4">
                     <ProfileCard state={state} setState={setState} />

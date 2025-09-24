@@ -2,7 +2,6 @@
 import sys, json
 import requests
 from bs4 import BeautifulSoup
-from fastapi import FastAPI
 
 def scrape(query: str = "저당"):
     url = f"https://search.shopping.naver.com/search/all?query={query}"
